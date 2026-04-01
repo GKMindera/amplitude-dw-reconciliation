@@ -9,5 +9,5 @@
     AND performer_id != 1
     AND is_under_age IS FALSE
     AND is_ineligible_state IS FALSE
-    AND product_name = 'SB'
+    AND product_name = '<<PRODUCT_NAME>>' -- add product_name here e.g 'sportsbook'
   GROUP BY 1
